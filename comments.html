@@ -8,8 +8,31 @@
 <body>
     <a href="index.html">Home</a>
     <form>
-        <textarea name="" id="" cols="30" rows="10" placeholder="add comment here"></textarea>
+        <Label for="comment">Comment</Label>
+        <br>
+        <textarea name="comment" id="comment" cols="50" rows="10" placeholder="add comment here" maxlength="20"></textarea>
+        <br>
+        <br>
+        <label for="">Sex</label>
+        <br>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
 
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="sex" id="unknown" value="unknown">
+        <label for="unknown">Unknown</label>
+        <br>
+        <br>
+        <label for="food">Choose Your favorite food</label>
+        <select name="food" id="food">
+            <option value="amala"> Amala</option>
+            <option value="eba"> Eba</option>
+            <option value="chicken"> Chicken</option>
+            <option value="rice"> Rice</option>
+        </select>
+        
     </form>
 </body>
 </html>
